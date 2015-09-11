@@ -81,7 +81,7 @@ public class CharacterMotor : MonoBehaviour
 	public class CharacterMotorJumping
 	{
 		// Can the character jump?
-		public bool enabled = true;
+		public bool enabled = false;
 		
 		// How high do we jump when pressing jump and letting go immediately
 		public float baseHeight = 1.0f;

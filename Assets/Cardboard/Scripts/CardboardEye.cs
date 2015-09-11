@@ -69,7 +69,7 @@ public class CardboardEye : MonoBehaviour {
 #if UNITY_5
   // For backwards source code compatibility, since we refer to the camera component A LOT in
   // this script.
-  new private Camera camera;
+ new private Camera camera;
 
   void Awake() {
     camera = GetComponent<Camera>();
