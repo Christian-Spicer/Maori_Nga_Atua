@@ -17,7 +17,7 @@ public class ResetRecenterScript : MonoBehaviour {
 		// if looking at object for 2 seconds, enable/disable autowalk
 		if (isLookedAt && Time.time > delay) { 
 			Cardboard.SDK.Recenter ();
-			head.transform.position = new Vector3(-15.8f,14.7f,9.1f);
+			head.transform.position = new Vector3(-30.42f,9.9f,36.32f);
 			GameObject FPSController = GameObject.Find ("Head");
 			FPSInputController autowalk = FPSController.GetComponent<FPSInputController> ();
 			autowalk.checkAutoWalk = false;
