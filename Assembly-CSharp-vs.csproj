@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\AutowalkArrowScript.cs" />
      <Compile Include="Assets\Scripts\AutowalkStopScript.cs" />
      <Compile Include="Assets\Scripts\CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\EmergeOutOfWaterScript.cs" />
      <Compile Include="Assets\Scripts\FPSInputController.cs" />
      <Compile Include="Assets\Scripts\ForwardTrackingArrowScript.cs" />
      <Compile Include="Assets\Scripts\ForwardTrackingResetScript.cs" />
@@ -79,7 +80,6 @@
      <Compile Include="Assets\Scripts\ResetRecenterScript.cs" />
      <Compile Include="Assets\Scripts\TeleportFromMountainScript.cs" />
      <Compile Include="Assets\Scripts\TeleportToMountainScript.cs" />
-     <Compile Include="Assets\Scripts\WaterStopWalkingScript.cs" />
      <Compile Include="Assets\SimpleCloudSystem by RM\SceneComponents\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
