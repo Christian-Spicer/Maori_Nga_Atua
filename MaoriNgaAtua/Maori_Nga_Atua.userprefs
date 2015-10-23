@@ -1,8 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EmergeOutOfWaterScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\AudioManagerScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\EmergeOutOfWaterScript.cs" Line="13" Column="5" />
+      <File FileName="Assets\Standard Assets\InputHandlerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\AudioManagerScript.cs" Line="42" Column="7" />
+      <File FileName="Assets\Scripts\TeleportToMountainScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TeleportToOrcaGodOfWaterScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TeleportToStartScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AnimateTumatauengaScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TrigerForHakaScript.cs" Line="45" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

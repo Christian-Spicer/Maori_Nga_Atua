@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 5f4ca1dcaaf2d1040a8c7adbb1e1b378
+timeCreated: 1445583237
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm_right
+    100002: Armature
+    100004: body
+    100006: body_MeshPart0
+    100008: body_MeshPart1
+    100010: body_MeshPart2
+    100012: Bone_001_L
+    100014: Bone_001_L_004
+    100016: Bone_001_L_005
+    100018: Bone_001_L_006
+    100020: Bone_001_L_007
+    100022: Bone_001_L_008
+    100024: Bone_001_L_009
+    100026: Bone_001_L_010
+    100028: Bone_001_L_011
+    100030: Bone_001_L_012
+    100032: Bone_001_L_013
+    100034: Bone_001_R_004
+    100036: Bone_001_R_005
+    100038: Bone_001_R_006
+    100040: Bone_001_R_007
+    100042: Bone_001_R_008
+    100044: Bone_001_R_009
+    100046: Bone_001_R_010
+    100048: Bone_001_R_011
+    100050: Bone_001_R_012
+    100052: Bone_001_R_013
+    100054: head
+    100056: hipleft
+    100058: hipright
+    100060: leftankle
+    100062: leftarm
+    100064: leftfoot
+    100066: leftlowerarm
+    100068: leftshin
+    100070: leftthigh
+    100072: lefttoefoot
+    100074: leftwrist
+    100076: lowerarmright
+    100078: neck
+    100080: rightankle
+    100082: rightfoot
+    100084: righthigh
+    100086: rightshin
+    100088: righttoefoot
+    100090: shoulderleft
+    100092: spinelower
+    100094: spinetop
+    100096: //RootNode
+    100098: wristright
+    400000: arm_right
+    400002: Armature
+    400004: body
+    400006: body_MeshPart0
+    400008: body_MeshPart1
+    400010: body_MeshPart2
+    400012: Bone_001_L
+    400014: Bone_001_L_004
+    400016: Bone_001_L_005
+    400018: Bone_001_L_006
+    400020: Bone_001_L_007
+    400022: Bone_001_L_008
+    400024: Bone_001_L_009
+    400026: Bone_001_L_010
+    400028: Bone_001_L_011
+    400030: Bone_001_L_012
+    400032: Bone_001_L_013
+    400034: Bone_001_R_004
+    400036: Bone_001_R_005
+    400038: Bone_001_R_006
+    400040: Bone_001_R_007
+    400042: Bone_001_R_008
+    400044: Bone_001_R_009
+    400046: Bone_001_R_010
+    400048: Bone_001_R_011
+    400050: Bone_001_R_012
+    400052: Bone_001_R_013
+    400054: head
+    400056: hipleft
+    400058: hipright
+    400060: leftankle
+    400062: leftarm
+    400064: leftfoot
+    400066: leftlowerarm
+    400068: leftshin
+    400070: leftthigh
+    400072: lefttoefoot
+    400074: leftwrist
+    400076: lowerarmright
+    400078: neck
+    400080: rightankle
+    400082: rightfoot
+    400084: righthigh
+    400086: rightshin
+    400088: righttoefoot
+    400090: shoulderleft
+    400092: spinelower
+    400094: spinetop
+    400096: //RootNode
+    400098: wristright
+    4300000: body_MeshPart0
+    4300002: body_MeshPart1
+    4300004: body_MeshPart2
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body_MeshPart0
+    13700002: body_MeshPart1
+    13700004: body_MeshPart2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
