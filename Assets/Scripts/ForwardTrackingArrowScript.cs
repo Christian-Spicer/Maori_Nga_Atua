@@ -33,9 +33,9 @@ public class ForwardTrackingArrowScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//this gets the head component and holds in a variable
-		GameObject FPSController = GameObject.Find ("Head");
+        GameObject controller = GameObject.Find("PlayerCapsule");
 		//this finds the script that contains the boolean checkAutoWalk
-		FPSInputController autowalk = FPSController.GetComponent<FPSInputController> ();
+        CharacterMotor autowalk = controller.GetComponent<CharacterMotor>();
 		//the assigns the headpose orientation to the variable
 		rot = Cardboard.SDK.HeadPose.Orientation;
 		//this assigns the head rotation to the variable

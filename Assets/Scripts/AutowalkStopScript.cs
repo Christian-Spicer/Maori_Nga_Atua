@@ -23,9 +23,9 @@ public class AutowalkStopScript : MonoBehaviour {
 		// if looking at object for 2 seconds, enable/disable autowalk
 		if (isLookedAt && Time.time > delay) { 
 			//this gets the head component
-			GameObject FPSController = GameObject.Find ("Head");
+            GameObject controller = GameObject.Find("PlayerCapsule");
 			//this finds the script that contains the boolean checkAutoWalk
-			FPSInputController autowalk = FPSController.GetComponent<FPSInputController> ();
+            CharacterMotor autowalk = controller.GetComponent<CharacterMotor>();
 			//this set the boolean checkAutoWalk to true if it is false ans false if it is true
 			autowalk.checkAutoWalk = !autowalk.checkAutoWalk;
 			//this line set the delay to count down

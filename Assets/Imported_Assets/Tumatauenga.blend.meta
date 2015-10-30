@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5f4ca1dcaaf2d1040a8c7adbb1e1b378
-timeCreated: 1445583237
+timeCreated: 1446076084
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -11,110 +11,119 @@ ModelImporter:
     100006: body_MeshPart0
     100008: body_MeshPart1
     100010: body_MeshPart2
-    100012: Bone_001_L
-    100014: Bone_001_L_004
-    100016: Bone_001_L_005
-    100018: Bone_001_L_006
-    100020: Bone_001_L_007
-    100022: Bone_001_L_008
-    100024: Bone_001_L_009
-    100026: Bone_001_L_010
-    100028: Bone_001_L_011
-    100030: Bone_001_L_012
-    100032: Bone_001_L_013
-    100034: Bone_001_R_004
-    100036: Bone_001_R_005
-    100038: Bone_001_R_006
-    100040: Bone_001_R_007
-    100042: Bone_001_R_008
-    100044: Bone_001_R_009
-    100046: Bone_001_R_010
-    100048: Bone_001_R_011
-    100050: Bone_001_R_012
-    100052: Bone_001_R_013
-    100054: head
-    100056: hipleft
-    100058: hipright
-    100060: leftankle
-    100062: leftarm
-    100064: leftfoot
-    100066: leftlowerarm
-    100068: leftshin
-    100070: leftthigh
-    100072: lefttoefoot
-    100074: leftwrist
-    100076: lowerarmright
-    100078: neck
-    100080: rightankle
-    100082: rightfoot
-    100084: righthigh
-    100086: rightshin
-    100088: righttoefoot
-    100090: shoulderleft
-    100092: spinelower
-    100094: spinetop
-    100096: //RootNode
-    100098: wristright
+    100012: body_MeshPart3
+    100014: Bone_001_L
+    100016: Bone_001_L_004
+    100018: Bone_001_L_005
+    100020: Bone_001_L_006
+    100022: Bone_001_L_007
+    100024: Bone_001_L_008
+    100026: Bone_001_L_009
+    100028: Bone_001_L_010
+    100030: Bone_001_L_011
+    100032: Bone_001_L_012
+    100034: Bone_001_L_013
+    100036: Bone_001_R_004
+    100038: Bone_001_R_005
+    100040: Bone_001_R_006
+    100042: Bone_001_R_007
+    100044: Bone_001_R_008
+    100046: Bone_001_R_009
+    100048: Bone_001_R_010
+    100050: Bone_001_R_011
+    100052: Bone_001_R_012
+    100054: Bone_001_R_013
+    100056: Cylinder
+    100058: head
+    100060: hipleft
+    100062: hipright
+    100064: leftankle
+    100066: leftarm
+    100068: leftfoot
+    100070: leftlowerarm
+    100072: leftshin
+    100074: leftthigh
+    100076: lefttoefoot
+    100078: leftwrist
+    100080: lowerarmright
+    100082: neck
+    100084: rightankle
+    100086: rightfoot
+    100088: righthigh
+    100090: rightshin
+    100092: righttoefoot
+    100094: shoulderleft
+    100096: spinelower
+    100098: spinetop
+    100100: //RootNode
+    100102: wristright
     400000: arm_right
     400002: Armature
     400004: body
     400006: body_MeshPart0
     400008: body_MeshPart1
     400010: body_MeshPart2
-    400012: Bone_001_L
-    400014: Bone_001_L_004
-    400016: Bone_001_L_005
-    400018: Bone_001_L_006
-    400020: Bone_001_L_007
-    400022: Bone_001_L_008
-    400024: Bone_001_L_009
-    400026: Bone_001_L_010
-    400028: Bone_001_L_011
-    400030: Bone_001_L_012
-    400032: Bone_001_L_013
-    400034: Bone_001_R_004
-    400036: Bone_001_R_005
-    400038: Bone_001_R_006
-    400040: Bone_001_R_007
-    400042: Bone_001_R_008
-    400044: Bone_001_R_009
-    400046: Bone_001_R_010
-    400048: Bone_001_R_011
-    400050: Bone_001_R_012
-    400052: Bone_001_R_013
-    400054: head
-    400056: hipleft
-    400058: hipright
-    400060: leftankle
-    400062: leftarm
-    400064: leftfoot
-    400066: leftlowerarm
-    400068: leftshin
-    400070: leftthigh
-    400072: lefttoefoot
-    400074: leftwrist
-    400076: lowerarmright
-    400078: neck
-    400080: rightankle
-    400082: rightfoot
-    400084: righthigh
-    400086: rightshin
-    400088: righttoefoot
-    400090: shoulderleft
-    400092: spinelower
-    400094: spinetop
-    400096: //RootNode
-    400098: wristright
+    400012: body_MeshPart3
+    400014: Bone_001_L
+    400016: Bone_001_L_004
+    400018: Bone_001_L_005
+    400020: Bone_001_L_006
+    400022: Bone_001_L_007
+    400024: Bone_001_L_008
+    400026: Bone_001_L_009
+    400028: Bone_001_L_010
+    400030: Bone_001_L_011
+    400032: Bone_001_L_012
+    400034: Bone_001_L_013
+    400036: Bone_001_R_004
+    400038: Bone_001_R_005
+    400040: Bone_001_R_006
+    400042: Bone_001_R_007
+    400044: Bone_001_R_008
+    400046: Bone_001_R_009
+    400048: Bone_001_R_010
+    400050: Bone_001_R_011
+    400052: Bone_001_R_012
+    400054: Bone_001_R_013
+    400056: Cylinder
+    400058: head
+    400060: hipleft
+    400062: hipright
+    400064: leftankle
+    400066: leftarm
+    400068: leftfoot
+    400070: leftlowerarm
+    400072: leftshin
+    400074: leftthigh
+    400076: lefttoefoot
+    400078: leftwrist
+    400080: lowerarmright
+    400082: neck
+    400084: rightankle
+    400086: rightfoot
+    400088: righthigh
+    400090: rightshin
+    400092: righttoefoot
+    400094: shoulderleft
+    400096: spinelower
+    400098: spinetop
+    400100: //RootNode
+    400102: wristright
+    2300000: Cylinder
+    3300000: Cylinder
     4300000: body_MeshPart0
     4300002: body_MeshPart1
     4300004: body_MeshPart2
-    7400000: Default Take
-    7400002: ArmatureAction
+    4300006: body_MeshPart3
+    4300008: Cylinder
+    7400000: GodOfWarTake1
+    7400002: GodOfWarTake2
     9500000: //RootNode
     11100000: //RootNode
     13700000: body_MeshPart0
     13700002: body_MeshPart1
     13700004: body_MeshPart2
+    13700006: body_MeshPart3
   materials:
     importMaterials: 1
     materialName: 0
@@ -134,7 +143,267 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GodOfWarTake1
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 784
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hipleft
+        weight: 1
+      - path: Armature/hipleft/leftthigh
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin/leftankle
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin/leftankle/leftfoot
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin/leftankle/leftfoot/lefttoefoot
+        weight: 1
+      - path: Armature/hipright
+        weight: 1
+      - path: Armature/hipright/righthigh
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin/rightankle
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin/rightankle/rightfoot
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin/rightankle/rightfoot/righttoefoot
+        weight: 1
+      - path: Armature/spinelower
+        weight: 1
+      - path: Armature/spinelower/spinetop
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_004
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_004/Bone_001_L_005
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_006
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_006/Bone_001_L_007
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_008
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_008/Bone_001_L_009
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_010
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_010/Bone_001_L_011
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_012
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_012/Bone_001_L_013
+        weight: 1
+      - path: Armature/spinelower/spinetop/neck
+        weight: 1
+      - path: Armature/spinelower/spinetop/neck/head
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_004
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_004/Bone_001_R_005
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_006
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_006/Bone_001_R_007
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_008
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_008/Bone_001_R_009
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_010
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_010/Bone_001_R_011
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_012
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_012/Bone_001_R_013
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/body_MeshPart0
+        weight: 1
+      - path: body/body_MeshPart1
+        weight: 1
+      - path: body/body_MeshPart2
+        weight: 1
+      - path: body/body_MeshPart3
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GodOfWarTake2
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 771
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/hipleft
+        weight: 1
+      - path: Armature/hipleft/leftthigh
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin/leftankle
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin/leftankle/leftfoot
+        weight: 1
+      - path: Armature/hipleft/leftthigh/leftshin/leftankle/leftfoot/lefttoefoot
+        weight: 1
+      - path: Armature/hipright
+        weight: 1
+      - path: Armature/hipright/righthigh
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin/rightankle
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin/rightankle/rightfoot
+        weight: 1
+      - path: Armature/hipright/righthigh/rightshin/rightankle/rightfoot/righttoefoot
+        weight: 1
+      - path: Armature/spinelower
+        weight: 1
+      - path: Armature/spinelower/spinetop
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_004
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_004/Bone_001_L_005
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_006
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_006/Bone_001_L_007
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_008
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_008/Bone_001_L_009
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_010
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_010/Bone_001_L_011
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_012
+        weight: 1
+      - path: Armature/spinelower/spinetop/Bone_001_L/arm_right/lowerarmright/wristright/Bone_001_L_012/Bone_001_L_013
+        weight: 1
+      - path: Armature/spinelower/spinetop/neck
+        weight: 1
+      - path: Armature/spinelower/spinetop/neck/head
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_004
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_004/Bone_001_R_005
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_006
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_006/Bone_001_R_007
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_008
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_008/Bone_001_R_009
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_010
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_010/Bone_001_R_011
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_012
+        weight: 1
+      - path: Armature/spinelower/spinetop/shoulderleft/leftarm/leftlowerarm/leftwrist/Bone_001_R_012/Bone_001_R_013
+        weight: 1
+      - path: body
+        weight: 1
+      - path: body/body_MeshPart0
+        weight: 1
+      - path: body/body_MeshPart1
+        weight: 1
+      - path: body/body_MeshPart2
+        weight: 1
+      - path: body/body_MeshPart3
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

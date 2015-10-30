@@ -58,6 +58,5 @@ public class ForwardTrackingResetScript : MonoBehaviour {
 		transform.rotation = resetRot;
 		//this does the actual movements of the position
 		transform.position = head.transform.position + lookDir;
-		
 	}
 }

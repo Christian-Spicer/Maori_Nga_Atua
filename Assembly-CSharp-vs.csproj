@@ -73,7 +73,6 @@
      <Compile Include="Assets\Scripts\AutowalkArrowScript.cs" />
      <Compile Include="Assets\Scripts\AutowalkStopScript.cs" />
      <Compile Include="Assets\Scripts\CharacterMotor.cs" />
-     <Compile Include="Assets\Scripts\FPSInputController.cs" />
      <Compile Include="Assets\Scripts\ForwardTrackingArrowScript.cs" />
      <Compile Include="Assets\Scripts\ForwardTrackingResetScript.cs" />
      <Compile Include="Assets\Scripts\ForwardTrackingStopScript.cs" />

@@ -9,11 +9,19 @@ public class ResetRecenterScript : MonoBehaviour {
 	public float delayTime = 1.0f;
 	//this declares a variable that gets set to compare against delayTime variable
 	private float delay = 0.0f;
+    private Rigidbody rb;
+    private CharacterMotor autowalk;
+    GameObject controller;
 	// Use this for initialization
 	void Start() {
 		//this sets the head variable to the Head component
 		head = Camera.main.GetComponent<StereoController>().Head;
-	}
+        //this gets the head component
+        controller = GameObject.Find("PlayerCapsule");
+        //this finds the script that contains the boolean checkAutoWalk
+        autowalk = controller.GetComponent<CharacterMotor>();
+			
+   	}
 	// Update is called once per frame
 	void Update() {
 		//this declares the hit variable as a raycast
@@ -24,14 +32,10 @@ public class ResetRecenterScript : MonoBehaviour {
 		if (isLookedAt && Time.time > delay) { 
 			//tis recentres the player
 			Cardboard.SDK.Recenter ();
-			//this put the charactor back to the start
-			head.transform.position = new Vector3(-30.42f,9.9f,36.32f);
-			//this gets the head component
-			GameObject FPSController = GameObject.Find ("Head");
-			//this finds the script that contains the boolean checkAutoWalk
-			FPSInputController autowalk = FPSController.GetComponent<FPSInputController> ();
-			//this set the boolean checkAutoWalk to false
-			autowalk.checkAutoWalk = false;
+            //this put the charactor back to the start 
+            controller.transform.position = new Vector3(-30.42f, 9.9f, 36.32f);
+            //this set the boolean checkAutoWalk to false
+            autowalk.checkAutoWalk = false;
 			//this line set the delay to count down
 			delay = Time.time + delayTime;
 		}

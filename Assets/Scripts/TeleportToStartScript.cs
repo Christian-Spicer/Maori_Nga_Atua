@@ -26,12 +26,12 @@ public class TeleportToStartScript : MonoBehaviour {
 		bool isLookedAt = GetComponent<Collider> ().Raycast (head.Gaze, out hit, Mathf.Infinity);
 		// if looking at object for 2 seconds
 		if (isLookedAt && Time.time > delay) { 
-			//this put the charactor to the start
-			head.transform.position = new Vector3(-30.42f,6f,36.32f);
 			//this gets the head component
-			GameObject FPSController = GameObject.Find ("Head");
+			GameObject controller = GameObject.Find ("PlayerCapsule");
+			//this put the charactor to the start
+			controller.transform.position = new Vector3(-30.42f,6f,36.32f);
 			//this finds the script that contains the boolean checkAutoWalk
-			FPSInputController autowalk = FPSController.GetComponent<FPSInputController> ();
+            CharacterMotor autowalk = controller.GetComponent<CharacterMotor>();
 			//this set the boolean checkAutoWalk to false
 			autowalk.checkAutoWalk = false;
 			//this get the audio manager object

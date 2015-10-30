@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 501bc6c3897f6c149acb614cf6cf899c
-timeCreated: 1445207706
+timeCreated: 1446170758
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -40,14 +40,14 @@ ModelImporter:
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
-    animationWrapMode: 0
+    animationWrapMode: 2
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
       name: Default Take
       takeName: Default Take
       firstFrame: -1
-      lastFrame: 469.000031
+      lastFrame: 313
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -85,12 +85,12 @@ ModelImporter:
       name: ArmatureAction_004
       takeName: ArmatureAction_004
       firstFrame: -1
-      lastFrame: 469.000031
-      wrapMode: 2
+      lastFrame: 313
+      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 1
+      loop: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0

@@ -10,7 +10,6 @@ public class AudioManagerScript : MonoBehaviour {
 	public string[] audioName;
 	//store all the audoi that we want to use
 	public AudioClip[] audioClip;
-	//
 	[System.NonSerialized]
 	//this is to activate the log message 
 	public bool clipFound;
@@ -28,7 +27,7 @@ public class AudioManagerScript : MonoBehaviour {
 	
 	}
 	//this controls the the files to play
-	public void Play(string clipName)
+	public void PlaySound(string clipName)
 	{
 		//loops though the files the are in the list
 		for (int i = 0; i < audioName.Length; i++) {
@@ -38,9 +37,10 @@ public class AudioManagerScript : MonoBehaviour {
 				audio.clip = audioClip [i];
 				//plays the file
 				if (audio) {
-					if (!audio.isPlaying)
-						audio.Play();
-					audio.loop = true;
+					audio.volume = 1.5f;
+					if(audio.isPlaying)return;
+					audio.Play();
+
 				}
 				clipFound = true;
 				break;

@@ -27,12 +27,12 @@ public class TeleportToMountainScript : MonoBehaviour {
 		bool isLookedAt = GetComponent<Collider> ().Raycast (head.Gaze, out hit, Mathf.Infinity);
 		// if looking at object for 2 seconds
 		if (isLookedAt && Time.time > delay) {
-			//this put the charactor to the top of the mountain
-			head.transform.position = new Vector3(60f,41f,0f);
 			//this gets the head component
-			GameObject FPSController = GameObject.Find ("Head");
+			GameObject controller = GameObject.Find ("PlayerCapsule");
+			//this put the charactor to the top of the mountain
+			controller.transform.position = new Vector3(60f,41f,0f);
 			//this finds the script that contains the boolean checkAutoWalk
-			FPSInputController autowalk = FPSController.GetComponent<FPSInputController> ();
+            CharacterMotor autowalk = controller.GetComponent<CharacterMotor>();
 			//this set the boolean checkAutoWalk to false
 			autowalk.checkAutoWalk = false;
 			//this gets the god of war object
@@ -48,7 +48,10 @@ public class TeleportToMountainScript : MonoBehaviour {
 			//this changes the audio boolen in InputHandlerScript 
 			audio.Koauau = false;
 			audio.Putatara = false;
-			audio.Haka = true;
+			if (animation["GodOfWarTake1"].enabled && animation["GodOfWarTake1"].time == 0)
+				audio.Haka = true;
+			else 
+				audio.Haka = false;
 			//this line set the delay to count down
 			delay = Time.time + delayTime;
 		}

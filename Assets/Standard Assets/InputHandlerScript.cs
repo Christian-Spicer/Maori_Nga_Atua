@@ -15,16 +15,33 @@ public class InputHandlerScript : MonoBehaviour {
 	void Start () {
 	
 	}
-	
 	// Update is called once per frame
 	void Update () {
+
 		GameObject audioManager = GameObject.Find ("AudioManager");
+		GameObject audioTumatauenga = GameObject.Find ("Tumatauenga");
+		AudioSource audioSource = audioManager.GetComponent<AudioSource> ();
+		AudioSource tumatauengaAudioSource = audioTumatauenga.GetComponent<AudioSource> ();
 		AudioManagerScript audio = audioManager.GetComponent<AudioManagerScript>();
-		if (Koauau)
-			audio.Play ("Koauau");
-		else if (Haka)
-			audio.Play ("Putatara");
-		else if (Putatara)
-			audio.Play ("Putatara");
+		if (Koauau) {
+			Putatara = false;
+			Haka = false;
+			Koauau = false;
+			audio.PlaySound ("Koauau");
+		}
+		else if (Putatara) {
+			Koauau = false;
+			Haka = false;
+			Putatara = false;
+			audio.PlaySound ("Putatara");
+		}
+		else if (Haka) {
+			Koauau = false;
+			Putatara = false;
+			Haka = false;
+			audioSource.Stop();
+			tumatauengaAudioSource.Play();
+			//audio.PlaySound ("Haka");
+		}
 	}
 }

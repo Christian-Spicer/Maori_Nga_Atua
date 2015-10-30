@@ -35,7 +35,10 @@ public class AnimateTumatauengaScript : MonoBehaviour {
 			//this changes the audio boolen in InputHandlerScript 
 			audio.Koauau = false;
 			audio.Putatara = false;
-			audio.Haka = true;
+			if (animation["GodOfWarTake1"].enabled && animation["GodOfWarTake1"].time == 0)
+				audio.Haka = true;
+			else 
+				audio.Haka = false;
 			//this line set the delay to count down
 			delay = Time.time + delayTime;
 		}
